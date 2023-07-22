@@ -30,7 +30,7 @@ public class testController {
     @PostMapping("/question2")
     public ChatMessage sendQuestion2(@RequestBody QuestionRequestDto requestDto) {
 
-        OpenAiService service = new OpenAiService("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");
+        OpenAiService service = new OpenAiService("your api key");
 
         List<ChatMessage> messages = new ArrayList<>();
         ChatMessage chatMessage = new ChatMessage("user", requestDto.getQuestion());
