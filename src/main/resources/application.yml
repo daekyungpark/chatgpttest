@@ -1,0 +1,5 @@
+server:
+  port: 8000
+
+chatgpt:
+  api-key: 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
