@@ -48,7 +48,7 @@ public class testController {
                 .build();
 
         ChatMessage responseMessage = service.createChatCompletion(chatCompletionRequest).getChoices().get(0).getMessage();
-
+//
         return responseMessage;
     }
 }
